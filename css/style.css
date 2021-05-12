@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #374238;
+    font-size: 15px;
+    line-height: 2;
+}
+
+p, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #cccccc;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #3583aa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #788d98;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 0;
+}
+
+.global-nav {
+    float: right;
+    margin-top: 60px;
+}
+
+.global-nav li {
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Itim', cursive;
+}
+
+.global-nav li a {
+    color: #374238;
+}
+
+.global-nav li a:hover {
+    border-bottom: 2px solid #374238;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#topwrap {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    background-color: #374238;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+.mainimg {
+    width: 100%;
+}
+
+.membericon::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #374238;
+}
+
+.kazuimg {
+    width: 150px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.kazutext {
+    font-size: 12px;
+    float: right;
+    margin-top: 15px;
+    width: 660px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.kazutext span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.yuuimg {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.yuutext {
+    font-size: 12px;
+    float: right;
+    width: 660px;
+    margin-top: 15px;
+}
+
+.yuutext span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.kouimg {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.koutext {
+    font-size: 12px;
+    float: right;
+    width: 660px;
+    margin-top: 15px;
+}
+
+.koutext span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.practiceicon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #374238;
+}
+
+.practiceimg1 {
+    width: 450px;
+}
+
+.practiceimg2 {
+    width: 450px;
+}
+
+.practicetext {
+    margin-top: 20px;
+}
+
+.beginnertext {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.seniortext {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.videoicon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #374238;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.galleryimg li {
+    float: left;
+    list-style: none;
+    margin: 0 30px 15px 0;
+}
+
+.galleryimg li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.scheduleicon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #374238;
+}
+
+.beginner {
+    color: #ffffff;
+    background-color: #374238;
+    font-size: 18px;
+    padding: 5px 0 0 5px;
+}
+
+.senior {
+    color: #ffffff;
+    background-color: #374238;
+    font-size: 18px;
+    padding: 5px 0 0 5px;
+}
+
+.contacticon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #374238;
+}
+
+#contact .form {
+    background-color: #eaeaea;
+    padding: 30px 50px;
+}
+
+#contact .form dl dt {
+    width: 165px;
+    padding: 10px 0;
+    float: left;
+    clear: both;
+}
+
+#contact .form dl dd {
+    padding: 10px 0;
+}
+
+#contact .form .name {
+    width: 240px;
+    height: 30px;
+}
+
+#contact .form .email {
+    width: 300px;
+    height: 30px;
+}
+
+#contact .form .message {
+ width: 660px;
+ height: 150px;   
+}
+
+#contact .form button {
+    background-color: #374238;
+    color: #ffffff;
+    font-size: 20px;
+    width: 120px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 3px solid #374238;
+    margin-left: 165px;
+}
+
+#contact .form button:hover {
+    background-color: #ffffff;
+    color: #374238;
+    cursor: pointer;
+}
+
+#contact .form .required:after {
+    content: "*";
+    color: #ff0000;
+}
+
+#contact .form .attention {
+    margin: 20px 0 0 165px;
+}
